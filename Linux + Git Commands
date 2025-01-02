@@ -1,0 +1,963 @@
+  264  userdel laxman
+  265  cat /etc/passwd
+  266  cat /etc/group
+  267  groupdel billegers
+  268  cat /etc/group
+  269  cat /etc/group
+  270  cat /etc/group
+  271  cat /etc/group
+  272  exit
+  273  ls
+  274  rm -r laxman
+  275  ls
+  276  whoami
+  277  pwd
+  278  cd sachin
+  279  ls -ltr
+  280  visudo
+  281  date
+  282  uptime
+  283  hostname
+  284  uname
+  285  uname -a
+  286  which
+  287  which tree
+  288  which mariadb
+  289  which netstat
+  290  cal
+  291  cal | 2014
+  292  cal  2013
+  293  cal  1999
+  294  bc
+  295  which bc
+  296  which ntpd
+  297  systemctl restart ntpd
+  298  yum install ntpd
+  299  ps -ef
+  300  which httpd
+  301  yum install httpd
+  302  which httpd
+  303  systemctl start httpd
+  304  systemctl status httpd
+  305  ps -ef
+  306  ps -ef | httpd
+  307  ps -ef | 13645
+  308  ps -ef | pid 13645
+  309  ps -ef | httpd
+  310  top
+  311  systemctl status httpd
+  312  kill httpd
+  313  systemctl status httpd
+  314  kill httpd
+  315  ps -ef
+  316  ps -ef | grep httpd
+  317  kill 13645
+  318  ps -ef | grep httpd
+  319  systemctl status httpd
+  320  crontab ss
+  321  which httpd
+  322  systemctl status httpd
+  323  ls -ltr
+  324  exit
+  325  whoami
+  326  cd sachin
+  327  ls -ltr
+  328  ls
+  329  mv jerry george kramer seinfeld
+  330  ls 
+  331  ls -ltr
+  332  touch puddy
+  333  ls
+  334  mv puddy seinfeld
+  335  ls
+  336  touch lisa
+  337  ls
+  338  mv homer bart marge lisa simpsons
+  339  ls
+  340  ls -ltr
+  341  ls
+  342  touch luther
+  343  ls
+  344  mv clark luther lois superman
+  345  ls
+  346  ls -ltr
+  347  ls -ltr
+  348  tree
+  349  cd seinfeld
+  350  ls
+  351  cat george
+  352  cat jerry
+  353  cat kramer
+  354  cat puddy
+  355  ls -ltr
+  356  touch eliane newman
+  357  ls -ltr
+  358  chmod a-r eliane
+  359  ls -ltr
+  360  pwd
+  361  cd ..
+  362  ls -ltr
+  363  whoami
+  364  cd superman
+  365  ls
+  366  touch superman zad
+  367  ls
+  368  ls -ltr
+  369  chgroup sachin zad
+  370  chgrp sachin zad
+  371  ls -ltr
+  372  pwd
+  373  mv superman /tmp
+  374  ls -ltr
+  375  pwd
+  376  cd ..
+  377  pwd
+  378  cd ..
+  379  cd /tmp
+  380  ls
+  381  ls -ltr
+  382  rm superman
+  383  ls -ltr
+  384  pwd
+  385  cd ..
+  386  pwd
+  387  ls
+  388  cd sachin
+  389  cd /home/sachin
+  390  ls -ltr
+  391  cd superman
+  392  ls
+  393  pwd
+  394  vi zad
+  395  cat zad
+  396  vi zad
+  397  cat zad
+  398  ls -ltr
+  399  cd seinfeld
+  400  pwd
+  401  cd ..
+  402  ls
+  403  cd seinfeld
+  404  ls
+  405  touch seinfeld
+  406  ls
+  407  cat seinfeld > Jerry Seinfeld, George Gustanza, Eliane Benis, Cosmo Kramer, David Puddy 
+  408  cat seinfeld >> Jerry Seinfeld, George Gustanza, Eliane Benis, Cosmo Kramer, David Puddy 
+  409  cat seinfeld
+  410  vi seinfeld
+  411  cat seinfeld
+  412  vi seinfeld
+  413  cat seinfeld
+  414  ls
+  415  cd ..
+  416  cd ..
+  417  ls
+  418  cat /var/log/dmesg
+  419  cd sachin
+  420  cat /var/log/dmesg
+  421  cd ..
+  422  ls
+  423  cd ..
+  424  cat /var/log/dmesg
+  425  ls
+  426  cd /var
+  427  ls
+  428  cd /log
+  429  pwd
+  430  tree
+  431  cd /home/sachin
+  432  ls
+  433  ls -ltr
+  434  cd seinfeld
+  435  ls
+  436  mkdir seinfeld-characters
+  437  ls
+  438  rmdir seinfeld-characters
+  439  ls
+  440  touch seinfeld-characters
+  441  ls
+  442  ls
+  443  echo = "Jerry Seinfeld, Cosmo Kramer, Eliane Benes, George Costanza, Newman Mailman, Frank Costanza, Estelle Costanza, Morty Seinfeld, Helen Seinfeld, Babes Kramer, Alton Benes, J Peterman, George Steinbrenner, Uncle Leo, David Puddy, Justin Pit and Kenny Bania" seinfeld-characters
+  444  ls -ltr
+  445  echo = "Jerry Seinfeld, Cosmo Kramer, Eliane Benes, George Costanza, Newman Mailman, Frank Costanza, Estelle Costanza, Morty Seinfeld, Helen Seinfeld, Babes Kramer, Alton Benes, J Peterman, George Steinbrenner, Uncle Leo, David Puddy, Justin Pit and Kenny Bania" > seinfeld-characters
+  446  ls -ltr
+  447  cat seinfeld-characters
+  448  vi seinfeld-characters
+  449  cat seinfeld-characters
+  450  vi seinfeld-characters
+  451  cat seinfeld-characters
+  452  cut -c4 seinfeld-characters
+  453  cat seinfeld-characters
+  454  awk echo={'print $2'} seinfeld-characters
+  455  awk echo='{print $2}' seinfeld-characters
+  456  awk '{print $2}' seinfeld-characters
+  457  cd ..
+  458  pwd
+  459  cd ..
+  460  cd superman
+  461  ls
+  462  cd sachin
+  463  ls
+  464  cd superman
+  465  ls
+  466  exit
+  467  whoami
+  468  cd sachin
+  469  ls
+  470  ls -ltr
+  471  tree
+  472  ps -ef
+  473  ps -ef | grep mariadb
+  474  ps -ef | grep 1501
+  475  ps -ef | grep python
+  476  ps -ef | grep sql
+  477  ls -ltr
+  478  pwd
+  479  whoami
+  480  top
+  481  sar 1 5
+  482  ls -ltr
+  483  cat lex
+  484  ls -ltr
+  485  cd simpsons
+  486  ls -ltr
+  487  cat bart
+  488  vi bart
+  489  cat bart
+  490  awk '{print $2}' bart
+  491  awk '{print $1}' bart
+  492  cut 1c bart
+  493  cut help
+  494  cut main
+  495  cut --help
+  496  cut -c2 bart
+  497  awk --help
+  498  cd ..
+  499  ls -ltr
+  500  cat /etc/os-rele
+  501  cat /etc/os-release
+  502  ls -ltr
+  503  netstat -ntlp
+  504  free -h
+  505  free -sh
+  506  du -sh
+  507  exit
+  508  whoami
+  509  ls -ltr
+  510  pwd
+  511  cd /home
+  512  ls -ltr
+  513  cd sachin
+  514  ls -ltr
+  515  ls -ltr
+  516  ls 
+  517  history
+  518  ls
+  519  cd seinfeld
+  520  pwd
+  521  history
+  522  cd ..
+  523  ls
+  524  cd superman
+  525  ls -ltr
+  526  vi first4movies
+  527  cat first4movies
+  528  cat /etc/passwd
+  529  cat /etc/group
+  530  groupadd superheros
+  531  cat /etc/group
+  532  useradd hulk 
+  533  cat /etc/passwd
+  534  cat /etc/passwd
+  535  usermod -aG superheros hulk
+  536  cat /etc/passwd
+  537  cat /etc/group
+  538  cat /etc/group
+  539  ls -ltr
+  540  passwd hulk
+  541  cd hulk
+  542  pwd
+  543  cd /hulk
+  544  whoami
+  545  user hulk
+  546  id hulk
+  547  groups
+  548  groups superheros
+  549  finger hulk
+  550  groups hulk
+  551  finger hulk
+  552  users
+  553  who -u
+  554  w
+  555  last
+  556  last -ap
+  557  lastb
+  558  cd ..
+  559  cd ..
+  560  ls -ltr
+  561  cd hulk
+  562  ls -ltr
+  563  cd ..
+  564  exit
+  565  cd hulk
+  566  ls -ltr
+  567  passwd hulk
+  568  pwd
+  569  touch Skaar
+  570  ls
+  571  ls -ltr
+  572  ls -ltr
+  573  rm Skaar
+  574  ls
+  575  pwd
+  576  cd /home
+  577  ls
+  578  history
+  579  pwd
+  580  history
+  581  cd ..
+  582  exit
+  583  pwd
+  584  python --version
+  585  python
+  586  exit
+  587  whoami
+  588  cd sachin
+  589  ls -ltr
+  590  mysql
+  591  python
+  592  whoami
+  593  ls -ltr
+  594  mysql
+  595  top
+  596  netstat -ntlp
+  597  free -h
+  598  systemctl status mariadb
+  599  systemctl start mariadb
+  600  systemctl status mariadb
+  601  mysql
+  602  systemctl status mariadb
+  603  cd sachin
+  604  systemctl status mariadb
+  605  systemctl stop mariadb
+  606  mysql
+  607  systemctl status mariadb
+  608  exit
+  609  cd ec2-user
+  610  ls
+  611  whoami
+  612  exit
+  613  exit
+  614  cd sachin
+  615  ls
+  616  tree
+  617  ls
+  618  cat lex
+  619  ls
+  620  pwd
+  621  ls -ltr
+  622  ls
+  623  pwd
+  624  netstate -ntlp
+  625  netstat -ntlp
+  626  systemctl status apache
+  627  systemctl status httpd
+  628  pwd
+  629  cd ..
+  630  pwd
+  631  exit
+  632  whoami
+  633  pwd
+  634  ls
+  635  systemctl status httpd
+  636  systemctl start httpd
+  637  systemctl status httpd
+  638  systemctl status httpd
+  639  netstat -ntlp
+  640  netstat -ntlp | grep httpd
+  641  ls
+  642  history
+  643  exit
+  644  ls
+  645  pwd
+  646  /opt/lampp/lampp start
+  647  /opt/lampp/lampp stop
+  648  /opt/lampp/lampp stop
+  649  /opt/lampp/lampp stop
+  650  systemctl status httpd
+  651  /opt/lampp/lampp start
+  652  /opt/lampp/lampp start
+  653  /opt/lampp/lampp stop
+  654  /opt/lampp/lampp stop
+  655  ls
+  656  pwd
+  657  cd home
+  658  cd /home
+  659  ls
+  660  cd sachin
+  661  ls
+  662  systemctl status httpd
+  663  systemctl stop httpd
+  664  systemctl status httpd
+  665  ls
+  666  systemctl start httpd
+  667  systemctl status httpd
+  668  ping google.com
+  669  systemctl stop httpd
+  670  systemctl status httpd
+  671  ping google.com
+  672  whoami
+  673  pwd
+  674  ls -l
+  675  exit
+  676  cd sachin
+  677  whoami
+  678  ls
+  679  ls -l
+  680  chmod o+x lex
+  681  ls -l
+  682  chmod o-x lex
+  683  ls -l
+  684  chmod u-x lex
+  685  ls -l
+  686  chmod u+x lex
+  687  ls -l
+  688  chmod u-x lex
+  689  ls -l
+  690  top
+  691  ps
+  692  ps -a
+  693  top
+  694  pwd
+  695  ps
+  696  ps -ef
+  697  top
+  698  ps -ef
+  699  netstat -ntlp
+  700  ls
+  701  vi lex
+  702  pwd
+  703  pwd
+  704  whoami
+  705  date
+  706  date +%D
+  707  date +%T
+  708  date +%H:%M
+  709  ls
+  710  ls -l
+  711  ls -lt
+  712  ls -ltr
+  713  ls -l
+  714  ls -lh
+  715  ls -lh
+  716  clear
+  717  ls
+  718  rm lex
+  719  ls
+  720  rmdir seinfeld
+  721  rmdir -r seinfeld
+  722  rm -r seinfeld
+  723  ls
+  724  rm -r simpsons
+  725  ls
+  726  rm -r superman
+  727  ls
+  728  ls 
+  729  ls l
+  730  ls -l
+  731  ls -a
+  732  ls -ltr
+  733  pwd
+  734  whoami
+  735  touch a.txt
+  736  ls
+  737  ls -l
+  738  vi a.txt
+  739  ls
+  740  cat a.txt 
+  741  vi test.csv
+  742  ls -ltr
+  743  cat test.csv 
+  744  less test.csv
+  745  ls
+  746  more a.txt 
+  747  more test.csv 
+  748  more test.csv 
+  749  more test.csv 
+  750  ls
+  751  touch b.txt
+  752  ls
+  753  rm b.txt 
+  754  ls
+  755  vi a.txt 
+  756  ls
+  757  cat a.txt 
+  758  ls -ltr
+  759  nano a.txt 
+  760  ls
+  761  pwd
+  762  ls -ltr
+  763  ls
+  764  mkdir folder1
+  765  ls
+  766  rmdir folder1
+  767  ls
+  768  pwd
+  769  mkdir folder1
+  770  ls
+  771  cd folder1/
+  772  ls
+  773  pwd
+  774  cd ..
+  775  ls
+  776  cd ..
+  777  ls
+  778  pwd
+  779  ls
+  780  cd /sachin/folder1
+  781  cd sachin
+  782  ls
+  783  cd ../..
+  784  pwd
+  785  cd /home
+  786  ls
+  787  cd sachin
+  788  pwd
+  789  ls
+  790  cp a.txt folder1/
+  791  ls 
+  792  cd folder1/
+  793  ls
+  794  ls
+  795  cd ..
+  796  ls
+  797  cat a.txt 
+  798  cd folder1/
+  799  ls
+  800  cat a.txt 
+  801  cd ..
+  802  ls
+  803  cd folder1/
+  804  cp ../test.csv .
+  805  ls
+  806  cat test.csv 
+  807  cd ..
+  808  ls
+  809  exit
+  810  ls
+  811  cd sachin
+  812  ls
+  813  whoami
+  814  mysql
+  815  systemctl status mariadb
+  816  systemctl start mariadb
+  817  systemctl status mariadb
+  818  mysql
+  819  systemctl status mariadb
+  820  systemctl start mariadb
+  821  systemctl stop mariadb
+  822  systemctl status mariadb
+  823  exit
+  824  whoami
+  825  pwd
+  826  ls
+  827  ls -ltr
+  828  git
+  829  yum install git
+  830  git
+  831  git help -a
+  832  git --version
+  833  ls 
+  834  ls -ltr
+  835  pwd
+  836  tree
+  837  git config --global user.name
+  838  git config --global user.email
+  839  history
+  840  git config --global user.name "redhat_Linux_user1"
+  841  git config --global user.email "redhat_Linux_user1@gmail.com"
+  842  git config --global user.name
+  843  git config --global user.email
+  844  git config --list
+  845  ls
+  846  mkdir demorepo
+  847  ls
+  848  tree
+  849  pwd
+  850  cd /demorepo
+  851  ls
+  852  ls -ltr
+  853  whoami
+  854  pwd
+  855  cd /root
+  856  ls
+  857  cd /root/demorepo
+  858  ls
+  859  pwd
+  860  git init.
+  861  git init .
+  862  ls
+  863  ls -ltr
+  864  pwd
+  865  ls -a
+  866  cat > file1
+  867  ls
+  868  tree
+  869  ls -a
+  870  cat file1
+  871  ls -ltr
+  872  ls -a
+  873  ls
+  874  git add .
+  875  git add --all
+  876  git add file1
+  877  git status
+  878  git add file1
+  879  git status
+  880  ls
+  881  cat > file2
+  882  ls
+  883  git add file2
+  884  git status
+  885  git log
+  886  git commit -m "this is my first commit"
+  887  ls
+  888  git status
+  889  git log
+  890  ls
+  891  history
+  892  git status
+  893  git log
+  894  ls
+  895  pwd
+  896  git status
+  897  ls
+  898  pwd
+  899  whoami
+  900  git --list
+  901  git config --list
+  902  git config --global user.name "sachin-saxena-sandy"
+  903  git config --global user.email "sachinsaxena25115@gmail.com"
+  904  git config --list
+  905  ls
+  906  ls -a
+  907  git config --list
+  908  tree
+  909  pwd
+  910  git config --list
+  911  git clone https://github.com/sachin-saxena-sandy/sachin-demo.git
+  912  ls
+  913  tree
+  914  pwd
+  915  ls
+  916  cd /sachin-demo
+  917  cd /home/ec2-user/sachin-demo
+  918  ls
+  919  cat README.md
+  920  cd ..
+  921  ls
+  922  ls
+  923  cd /home/ec2-user/sachin-demo
+  924  ls
+  925  ls -a
+  926  git status
+  927  cat README.md 
+  928  git status
+  929  vi README.md 
+  930  git status
+  931  cat README.md 
+  932  touch index.html
+  933  ls
+  934  git status
+  935  vi index.html 
+  936  git status
+  937  git status
+  938  git add index.html 
+  939  git status
+  940  git add.
+  941  git add .
+  942  git status
+  943  git status
+  944  git commit -m "add new paragraph"
+  945  git status
+  946  git status
+  947  git push origin main
+  948  git push origin main
+  949  git status
+  950  ls -a
+  951  ls
+  952  git config --list
+  953  git push origin main
+  954  git push origin master
+  955  git push origin main
+  956  ls
+  957  git status
+  958  git clone git@github.com:sachin-saxena-sandy/sachin-demo.git
+  959  ls
+  960  whoami
+  961  ls
+  962  git status
+  963  git status
+  964  ls
+  965  git push origin main
+  966  ls
+  967  git config --list
+  968  ls
+  969  pwd
+  970  cd /home/ec2-user/sachin-demo
+  971  ls
+  972  git status
+  973  vi index.html 
+  974  git status
+  975  add .
+  976  git add .
+  977  git status
+  978  git commit -m "add a heading"
+  979  git status
+  980  git push origin main
+  981  git push https://github.com/sachin-saxena-sandy/sachin-demo.git
+  982  git status
+  983  git log --oneline
+  984  git push https://github.com/sachin-saxena-sandy/sachin-demo.git main
+  985  ls
+  986  git status
+  987  git push origin main
+  988  git remote set-url origin https://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@github.com/sachin-saxena-sandy/sachin-demo
+  989  git push origin main
+  990  git status
+  991  ls
+  992  touch file1
+  993  ls
+  994  git status
+  995  git add .
+  996  git status
+  997  git commit -m "add a new file"
+  998  git status
+  999  git push origin main
+ 1000  ls
+ 1001  ls
+ 1002  pwd
+ 1003  /home/ec2-user
+ 1004  cd /home/ec2-user/sachin-demo
+ 1005  ls
+ 1006  cat file1 
+ 1007  mkdir localrepo
+ 1008  ls
+ 1009  cd localrepo/
+ 1010  ls
+ 1011  ls -a
+ 1012  git init
+ 1013  ls
+ 1014  ls -a
+ 1015  cat > index.html
+ 1016  ls
+ 1017  cat index.html 
+ 1018  cat > style.css
+ 1019  ls
+ 1020  ls -a
+ 1021  ls
+ 1022  ls -ltr
+ 1023  git status
+ 1024  git add .
+ 1025  git status
+ 1026  git commit -m "Add initial files"
+ 1027  git status
+ 1028  git remote add origin https://github.com/sachin-saxena-sandy/localrepo.git 
+ 1029  git remote -v
+ 1030  git branch
+ 1031  ls
+ 1032  git branch -M main
+ 1033  git branch
+ 1034  git push -u origin main
+ 1035  git status
+ 1036  git remote set-url origin https://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@github.com/sachin-saxena-sandy/localrepo
+ 1037  git status
+ 1038  git remote set-url origin https://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@github.com/sachin-saxena-sandy/localrepo
+ 1039  ls
+ 1040  history
+ 1041  git remote set-url origin https://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@github.com/sachin-saxena-sandy/localrepo
+ 1042  git push -u origin main
+ 1043  git status
+ 1044  ls
+ 1045  cat index.html
+ 1046  vi index.html 
+ 1047  cat index.html
+ 1048  git status
+ 1049  git add .
+ 1050  git status
+ 1051  git commit -m "Add a heading"
+ 1052  git status
+ 1053  git status
+ 1054  git remote set-url origin https://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@github.com/sachin-saxena-sandy/localrepo
+ 1055  git push -u origin main
+ 1056  ls
+ 1057  cat > README.md
+ 1058  ls
+ 1059  git status
+ 1060  git add .
+ 1061  git status
+ 1062  git commit -m "Add a file"
+ 1063  git status
+ 1064  git remote set-url origin https://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@github.com/sachin-saxena-sandy/localrepo
+ 1065  git push -u origin main
+ 1066  ls
+ 1067  rm README.md 
+ 1068  ls
+ 1069  git status
+ 1070  git add .
+ 1071  git status
+ 1072  git commit -m "delete readme"
+ 1073  git status
+ 1074  git push
+ 1075  ls
+ 1076  cat > README.md
+ 1077  ls
+ 1078  git status
+ 1079  git add .
+ 1080  git status
+ 1081  git commit -m "Add README"
+ 1082  git status
+ 1083  git push
+ 1084  vi README.md 
+ 1085  ls
+ 1086  git status
+ 1087  git add .
+ 1088  git status
+ 1089  git commit -m "fixed readme"
+ 1090  git status
+ 1091  git push
+ 1092  git branch
+ 1093  git checkout -b feature1
+ 1094  git branch
+ 1095  git checkout main
+ 1096  git branch
+ 1097  git checkout feature1
+ 1098  git branch
+ 1099  git branch
+ 1100  git checkout main
+ 1101  git branch
+ 1102  git checkout -b feature2
+ 1103  git branch
+ 1104  git checkout feature1
+ 1105  git branch
+ 1106  git checkout -d feature1
+ 1107  git branch
+ 1108  git branch
+ 1109  git checkout -d feature2
+ 1110  git branch
+ 1111  git checkout main
+ 1112  git branch
+ 1113  git branch -d feature2
+ 1114  git branch
+ 1115  git checkout feature1
+ 1116  git branch
+ 1117  ls
+ 1118  vi index.html 
+ 1119  ls
+ 1120  git status
+ 1121  git add .
+ 1122  git commit -m "Add new feature"
+ 1123  git status
+ 1124  git checkout main
+ 1125  git branch
+ 1126  cat index.html 
+ 1127  git checkout feature1
+ 1128  git branch
+ 1129  cat index.html 
+ 1130  git branch
+ 1131  git push origin feature1
+ 1132  git branch
+ 1133  git diff main
+ 1134  git branch
+ 1135  git checkout main
+ 1136  git branch
+ 1137  cat index.html 
+ 1138  git pull origin main
+ 1139  git branch
+ 1140  cat index.html 
+ 1141  git checkout feature1
+ 1142  git branch
+ 1143  cat index.html 
+ 1144  git checkout main
+ 1145  git branch
+ 1146  cat index.html 
+ 1147  git branch
+ 1148  vi index.html 
+ 1149  cat index.html 
+ 1150  git status
+ 1151  git add .
+ 1152  git status
+ 1153  git commit -m "Add button"
+ 1154  git status
+ 1155  git branch
+ 1156  cat index.html 
+ 1157  git branch
+ 1158  git checkout feature1
+ 1159  git branch
+ 1160  cat index.html 
+ 1161  vi index.html 
+ 1162  cat index.html 
+ 1163  git status
+ 1164  git add .
+ 1165  git status
+ 1166  git commit -m "Add Dropdown"
+ 1167  git status
+ 1168  git diff main
+ 1169  git merge main
+ 1170  git status
+ 1171  git add .
+ 1172  git status
+ 1173  git commit -m "Add both features"
+ 1174  git status
+ 1175  git branch
+ 1176  git diff main
+ 1177  cat index.html 
+ 1178  vi index.html 
+ 1179  cat index.html 
+ 1180  git branch
+ 1181  git checkout main
+ 1182  git status
+ 1183  git add .
+ 1184  git status
+ 1185  git commit -m "Add both features"
+ 1186  git status
+ 1187  cat index.html 
+ 1188  git branch
+ 1189  git checkout main
+ 1190  git branch
+ 1191  cat index.html 
+ 1192  git merge feature1
+ 1193  cat index.html 
+ 1194  git status
+ 1195  git status
+ 1196  git branch
+ 1197  git push
+ 1198  git branch
+ 1199  vi index.html 
+ 1200  cat index.html 
+ 1201  git add .
+ 1202  git status
+ 1203  git reset index.html 
+ 1204  git reset
+ 1205  git status
+ 1206  git add .
+ 1207  git status
+ 1208  git commit -m "delete heading"
+ 1209  git status
+ 1210  git reset HEAD~1
+ 1211  git status
+ 1212  git log
+ 1213  git branch
+ 1214  git reset 8d6a180a922314f51722512f9b6127c9a6712cf7
+ 1215  git status
+ 1216  git log
+ 1217  git status
+ 1218  git reset --hard  8d6a180a922314f51722512f9b6127c9a6712cf7
+ 1219  git status
+ 1220  cat index.html 
+ 1221  git branch
+ 1222  git checkout feature1
+ 1223  git branch
+ 1224  cat index.html 
+ 1225  git checkout main
+ 1226  git branch
