@@ -1,2 +1,2 @@
-# linux_projects
-A collections of linux files.
+# linux + Git Commands
+A collections of linux commands files.
